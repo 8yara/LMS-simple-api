@@ -11,6 +11,7 @@ router.post('/web/students/create', async (req, res) => {
     try{
             await student.save()
             res.status(201).send(student)
+            res.render(student)
         }catch(e){
             res.status(400).send(e)
         }
