@@ -2,7 +2,7 @@ const express = require('express')
 const router =new express.Router()
 const Student =require('../models/student')
 
-router.get('/students',(req,res)=>{
+router.get('/api/students',(req,res)=>{
     res.sendFile(__dirname+'/student.html')
 })
 //create a student

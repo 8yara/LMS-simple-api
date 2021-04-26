@@ -2,7 +2,7 @@ const express = require('express')
 const router =new express.Router()
 const Course=require('../models/course')
 
-router.get('/',(req,res)=>{
+router.get('/api/courses',(req,res)=>{
     res.sendFile(__dirname+'/course.html')
 })
 
