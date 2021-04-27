@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://127.0.0.1:27017/Collage-lms_API', {
+mongoose.connect('mongodb+srv://yara:25819982581998@cluster0.fvbez.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useCreateIndex: true
 })
